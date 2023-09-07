@@ -1,6 +1,5 @@
 package com.example.demoquartz;
 
-import com.fasterxml.jackson.annotation.JsonInclude;
 import io.swagger.annotations.*;
 import org.quartz.JobDataMap;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,7 +11,7 @@ import java.util.Map;
 @RestController
 @Api(value = "quartz增删改查相关API")
 @RequestMapping(value = "/quartz")
-public class YarnFlexibleCapacityExpansionController {
+public class QuartzController {
 
     @Autowired
     QuartzService quartzService;
